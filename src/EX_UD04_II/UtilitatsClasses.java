@@ -14,7 +14,7 @@ public class UtilitatsClasses {
      *
      * @param array
      */
-    public static void mostrarArrayListInt(ArrayList<Integer> array) {
+    public static void mostraArrayListInt(ArrayList<Integer> array) {
         System.out.print("[ ");
         for (Integer a : array) {
             System.out.print(a + " ");
@@ -22,7 +22,7 @@ public class UtilitatsClasses {
         System.out.println("]");
     }
     
-        public static void mostrarArrayListStr(ArrayList<String> array) {
+        public static void mostraArrayListStr(ArrayList<String> array) {
         System.out.print("[ ");
         for (String a : array) {
             System.out.print(a + " ");
@@ -35,7 +35,7 @@ public class UtilitatsClasses {
      *      s'avalua cada element de l'array en l'ArrayList
      * @return ArrayList 
      */    
-    public static ArrayList<Integer> mostrarDiferents(int[] array) {
+    public static ArrayList<Integer> mostraDiferents(int[] array) {
         ArrayList<Integer> resultat = new ArrayList<>();
         
         for (Integer num: array) {
@@ -67,7 +67,7 @@ public class UtilitatsClasses {
     *      moltes lectures
     * @return ArrayList ordenat
     */
-    public static ArrayList<Integer> mostrarDiferentsMillorat(int[] array) {
+    public static ArrayList<Integer> mostraDiferentsMillorat(int[] array) {
         ArrayList<Integer> resultat = new ArrayList<>();
         
         for (int num : array) {
