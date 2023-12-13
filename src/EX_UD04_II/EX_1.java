@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class EX_1 {
 
     private static final int LONGITUT = 10;  // longitut de l'array
-    private static int[] array = new int[LONGITUT];  // declaració i instanciació de l'array
+    private static int[] array = new int[LONGITUT];  // declaracio i instanciacio de l'array
     private static int index = 0;  // s'inicialitza l'array
         
     public static void main(String[] args) {
