@@ -63,7 +63,7 @@ public class EX_3_OK {
             okPersona = true;
             System.out.print("Comprovant " + persona[0] + "-" + persona[1] + " ") ;
             for (int[] bomba : bombes)
-                if (Arrays.compare(persona, bomba) == 0) {
+                if (Arrays.compare(persona, bomba) == 0) {  // també amb Arrays.equals
                     System.out.print("PERSONA NO SALVADA " + bomba[0] + "-" + bomba[1]);
                     okPersona = false;
                     break;
@@ -89,7 +89,7 @@ public class EX_3_OK {
             for (int j = 0; j < elements.size(); j++) {
                 int[] element = elements.get(j);
                 
-                if (Arrays.equals(element, elementProva)) {
+                if (Arrays.equals(element, elementProva)) { // també amb Arrays.compare
                     okElement = false;
                     break;
                 }
